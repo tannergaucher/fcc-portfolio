@@ -28,6 +28,7 @@ h2 {
   height: 100vh;
   background: #fafafa;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -73,6 +74,11 @@ h2 {
   justify-content: center;
   background: #fafafa;
   border-radius: 2px;
+}
+
+.project:hover {
+background: #ffffff;
+
 }
 
 #touch {
