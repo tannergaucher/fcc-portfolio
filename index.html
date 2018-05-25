@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Tanner</title>
+  <title>Tanner Gaucher</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
@@ -11,54 +11,70 @@
 <body>
 
   <nav id="navbar" class="sticky">
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+  
+      <!-- <a id="name" href="#welcome-pic">Tanner Gaucher</a> -->
+      <a href="#welcome-section">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#links">Contact</a>
+
   </nav>
 
   <!-- 100VH  -->
+  
+  <div id="welcome-pic">
+    <img src="./pics/three_birds.jpg">
+  </div>
+  
+  
   <div id="welcome-section" class="section">
-    <h1>Tanner Gaucher</h1>
-    <h3>Web Development: HTML, CSS, JS</h3>
-    <h3>Cryptocurrency and Decentralized Applicaitons:</h3> 
-    <h3>Solidity, Truffle, Web3.js</h3>
-    
+    <h1>Interests</h1>
+    <h3>Web Development: HTML, CSS, JS, React</h3>
+    <h3>Cryptocurrency and Decentralized Applications</h3> 
   </div>
 
   <!-- 100VH  -->
-  <div id="projects-title" class="">
+  <div id="projects-tile" class="">
     <h2>Projects</h2>
   </div>
 
   <!-- 100VH  -->
-  <div id="projects" class="section">
-    <div id="calc" class="project">
-      <div class="project-title">
-        <h4>JS Calculator</h4>
+  
+    <div id="projects" class="section">
+      <div id="calc" class="project">
+        <div class="project-tile">
+          <h4>JS Calculator</h4>
+        </div>
       </div>
-    </div>
 
     <div id="drum" class="project">
-      <div class="project-title">
-        <h4>Drum Machine</h4>
+      <div class="project-tile">
+        <a href="">
+          <h4>Drum Machine</h4>
+        </a>
       </div>
     </div>
 
     <div id="clock" class="project">
-      <div class="project-title">
-        <h4>Pomodoro Clock</h4>
+      <div class="project-tile">
+        <a href="">
+          <h4>Pomodoro Clock</h4>
+        </a>
       </div>
     </div>
 
     <div id="coin" class="project">
-      <div class="project-title">
-        <h4>TannerCoin</h4>
+      <div class="project-tile">
+        <a href="">
+          <h4>Markdown Previewer</h4>
+        </a>
       </div>
     </div>
 
     <div id="wallet" class="project">
-      <div class="project-title">
-        <h4>TannerWallet</h4>
+      <div class="project-tile">
+        <a href="http://flamboyant-allen-0ddd5e.netlify.com/">
+          <h4>Quote Machine</h4>
+        </a>
       </div>
     </div>
   </div>
@@ -70,15 +86,17 @@
     <h2>Get in Touch</h2>
   </div>
 
-  <div id="profile-link">
-    <a id="git" class="contact-btn" href="https://github.com/tannergaucher" target="_blank">Github</a>
+  <div id="links">
+    <a id="profile-link" class="contact-btn" href="https://github.com/tannergaucher" target="_blank">Github</a>
+    <a id="email" class="contact-btn" href="#">Email</a> 
     <a id="fcc" class="contact-btn" href="#">FCC</a>
     <a id="blog" class="contact-btn" href="#">Blog</a>
   </div>
   <footer>
-    <div id="credit">Tanner Gaucher</div>
+    <!-- <div id="credit">Tanner Gaucher</div> -->
   </footer>
   <script src="js/index.js"></script>
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
 </body>
 
 </html>
